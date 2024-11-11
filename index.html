@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="text-center py-4 bg-primary text-white">
+        <h1>Diego Aguilar Cruz</h1>
+        <p>Estudiante de ingeniería Biomedico</p>
+    </header>
+
+    <!-- Perfil Section -->
+    <section class="container my-5 text-center">
+        <img src="img/FotoPerfil.jpg" class="rounded-circle" alt="Foto de perfil" width="150" height="150">
+        <p class="mt-3">Soy estudiante de Ingeniería Biomédica apasionado por el diseño de interfaces intuitivas y la gestión de bases de datos. Me encanta explorar nuevas tecnologías y mejorar la experiencia del usuario a través de interfaces funcionales y atractivas. Además, tengo un gran interés en el área de bases de datos, donde disfruto organizando y optimizando la información para hacerla accesible y útil. En mi tiempo libre, me gusta viajar y conocer nuevas culturas, ya que creo que cada experiencia enriquece mi perspectiva y creatividad.</p>
+        <p><i class="fas fa-map-marker-alt"></i> Departamento de Cochabamba, Bolivia</p>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section class="container my-5">
+        <h2>Experiencia Laboral</h2>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Ingeniero Clínico - Equivid</h5>
+                <p class="card-text">enero 2024 - agosto 2024</p>
+                <p class="card-text">En Equivid, gestioné el área de mantenimiento de equipos médicos, planificando mantenimientos preventivos, realizando correctivos, y cotizando insumos y equipos necesarios para su operación óptima.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section class="container my-5">
+        <h2>Educación</h2>
+        <div class="card mb-3">
+            <div class="card-body">
+                <img src="img/LogoUnivalle.png" class="rounded-circle" alt="universidad" width="150" height="150">
+                <h5 class="card-title">Universidad del Valle</h5>
+                <p class="card-text">Ingeniería Biomedica</p>
+                <p class="card-text">2021 - 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="container my-5">
+        <h2>Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/ProyectoBombaInfusion.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Bomba de Infusión de Insulina</h5>
+                        <p class="card-text">Desarrollé un prototipo de bomba de infusión de insulina para administrar dosis precisas de insulina de forma automatizada. El proyecto incluyó el diseño del sistema de control y la integración de sensores para ajustar la administración según los niveles de glucosa, con el objetivo de mejorar la seguridad y la comodidad de los pacientes diabéticos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/ProyectoAntibiograma.jpg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de Medición de Halos para Pruebas de Sensibilidad Antimicrobiana</h5>
+                        <p class="card-text">Creé un sistema automatizado para medir los halos de inhibición en pruebas de sensibilidad antimicrobiana. Este sistema permite obtener mediciones precisas y consistentes, mejorando la eficiencia en el análisis y facilitando la selección de tratamientos adecuados en microbiología clínica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="container my-5">
+        <h2>Habilidades</h2>
+        <div class="d-flex justify-content-center flex-wrap">
+            <span class="badge badge-custom-green m-2">Word</span>
+            <span class="badge badge-custom-green m-2">Excel</span>
+            <span class="badge badge-custom-green m-2">MySQL</span>
+            <span class="badge badge-custom-green m-2">CCNA</span>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="container my-5">
+        <h2>Contacto</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-4 bg-light">
+        <p>&copy; 2024 Diego Aguilar Cruz. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
