@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #666;
+}
+
+.badge {
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.badge-custom-green {
+    background-color: #28a745; 
+    color: white;
+}
